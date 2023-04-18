@@ -8,7 +8,7 @@ function Home() {
         <Row>
             <Col md={6} className="d-flex flex-direction-column align-items-center justify-content-center">
                 <div>
-                    <h1>Hi, nice to meet yoy. Kimi no nawa?</h1>
+                    <h1>Hi, nice to meet you. Kimi no nawa?</h1>
                     <p>Here is where strangers become less strange</p>
                     <LinkContainer to="/chat">
                         <Button variant="success">
