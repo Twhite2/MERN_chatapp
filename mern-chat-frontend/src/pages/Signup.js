@@ -29,7 +29,7 @@ function Signup() {
     async function uploadImage() {
         const data = new FormData();
         data.append("file", image);
-        data.append("upload_preset", "your-preset-here");
+        data.append("upload_preset", "lrbumg49");
         try {
             setUploadingImg(true);
             let res = await fetch("https://api.cloudinary.com/v1_1/dpacpiduo/image/upload", {
